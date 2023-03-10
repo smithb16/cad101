@@ -1,10 +1,10 @@
 ---
 slug: cad101
 filename: cad101
-title: Title of the Book
-subtitle: Change me
-description: Change me.
-author: Author Name
+title: CAD 101
+subtitle: An Introduction to SolidWorks
+description: A programmatic introduction to Solidworks, including parts, assemblies, and drawings, as taught by a practicing engineer.
+author: Ben Smith
 copyright: 2023
 uuid: 9c9e228a-b880-4af5-99ce-601e6a04bb72
 pdf_preview_page_range: 1..30

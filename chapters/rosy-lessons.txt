@@ -1,0 +1,13 @@
+1. Using each of the sketch entities, create a self-portrait.
+  - If you've gotten through this, figure out what the entities are for.
+2. Draw a hammer. Define all sketch entities
+3. Defining w/ dimensions - Start with four lines. Fully define with dimensions. Restart and define with relations and one dimension.
+  - Extra credit: Add arcs to each of the 4 sides of the square. Make a circumscribed square.
+
+
+General thoughts:
+
+Dimensions - Start with fully defined. Add a driven dimension. Make the driven dimension driving, and fix the broken stuff.
+
+Defining w/ dimensions - Start with four lines. Fully define with dimensions. Restart and define with relations and one dimension.
+  - Extra credit: Add arcs to each of the 4 sides of the square. Make a circumscribed square.
