@@ -19,3 +19,16 @@
 
 % Include custom math example.
 \newcommand{\unitvec}[1]{\ensuremath{\hat #1}}
+
+% Make a single-line tabular relation
+\newcommand{\relation}[1]{
+  \kode{#1}~\includegraphics[height=1.4\fontcharht\font`\B]{images/symbols/#1.png}
+}
+
+\newcommand{\xrelation}[1]{
+  \sout{\kode{#1}}~\includegraphics[height=1.4\fontcharht\font`\B]{images/symbols/#1.png}
+}
+
+\newcommand{\cadsymbol}[1]{
+  \includegraphics[height=1.4\fontcharht\font`\B]{images/symbols/#1.png}
+}
