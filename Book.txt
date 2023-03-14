@@ -5,5 +5,5 @@ tableofcontents
 mainmatter:
 getting-started.tex
 first-widget.md
+modifying-first-widget.md
 selection-strategies.md
-bikepacking.md
