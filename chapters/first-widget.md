@@ -33,7 +33,7 @@ A few points are worth noting regarding this sketch.
 
 ![\label{fig:sketch-alignment-guides}](../images/figures/sketch-alignment-guides.png)
 
-Once we have a triangle (any triangle), close the sketch. We will now turn the part from a 2D sketch into a 3D feature using Extrude[^pasta1]. Select \relation{Extrude} from the feature tab, select the triangle sketch (probably called *Sketch1*), and set the extrude distance to 1", as in Figure~\ref{fig:first-extrude-dialog}. If your default length units are anything besides inches, see Aside~\ref{aside:part_units}.
+Once we have a triangle (any triangle), close the sketch. We will now turn the part from a 2D sketch into a 3D feature using Extrude[^pasta1]. Select \relation{Extrude} from the feature tab, select the triangle sketch (probably called *Sketch1*), and set the extrude distance to 1", as in Figure~\ref{fig:first-extrude-dialog}. If your default length units are anything besides inches, see Box~\ref{aside:part_units}.
 
 [^pasta1]: As in pasta.
 

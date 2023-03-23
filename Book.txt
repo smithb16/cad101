@@ -6,4 +6,5 @@ mainmatter:
 getting-started.tex
 first-widget.md
 modifying-first-widget.md
+t-connector.md
 selection-strategies.md

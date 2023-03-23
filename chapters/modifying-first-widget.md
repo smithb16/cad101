@@ -1,4 +1,5 @@
 # Modifying our Part 
+\label{chapter:modifying-first-widget}
 
 ## (The Wrong Way)
 
@@ -46,7 +47,7 @@ Now for the next error message:
 \coloredtext{red}{Warning: Could not find face or plane.}
 \end{quote}
 
-\( \vartriangleright \) Which face or plane can \solidworks not find?
+\questiontriangle Which face or plane can \solidworks not find?
 
 The face referenced here is the face that *Revolve Sketch* lives on. as indicated by the fact that our half-cyclinder is now floating in space:
 
@@ -57,6 +58,7 @@ Right-clicking on *Revolve Sketch*, we can \kode{Edit Sketch Plane} \cadsymbol{e
 Our academic widget is now complete, and with our new skills, we can begin to build parts that serve a function. \relation{Save} the part, and let's move on.
 
 ## Exercies
+\label{sec:modify-widget-exercises}
 
 1. Edit the part back into its first rendition, where the horizontal base was a leg and not the hypotenuse. Do this only by adding and deleting sketch relations. Confirm that the part rebuilds as desired.
 
