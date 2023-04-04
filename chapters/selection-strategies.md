@@ -1,5 +1,3 @@
-# Selection Strategies
-
 \begin{aside}
 \label{aside:selection-strategies}
 \heading{Selection Strategies}
@@ -14,11 +12,11 @@ In CAD, try as we might, we can't get around use of the cursor and mouse for sel
 
 ![](images/figures/window-drags.png)
 
-If you would like to select all of a certain part within an assembly, you can filter it with the Assembly Tree filter.
+* If you would like to select all of a certain part within an assembly, you can filter it with the Assembly Tree filter.
 
 ![](images/figures/assembly-tree-filter.png)
 
-We can use \cadsymbol{selection-filters}\kode{Selection Filters} to select only the entities we want. This feature is found within the Selection Filter toolbar. I use the \cadsymbol{select-edges}\kode{Select Edges} filter when filleting to avoid selecting faces. I use the \cadsymbol{select-faces}\kode{Select Faces} filter when isolating parts within an assembly (Section~\ref{sec:isolating-parts}). Beyond that, I leave the Selection Filters alone.
+* We can use \cadsymbol{selection-filters}\kode{Selection Filters} to select only the entities we want. This feature is found within the Selection Filter toolbar. I use the \cadsymbol{select-edges}\kode{Select Edges} filter when filleting to avoid selecting faces. I use the \cadsymbol{select-faces}\kode{Select Faces} filter when isolating parts within an assembly (Section~\ref{sec:isolating-parts}). Beyond that, I leave the Selection Filters alone.
 
 ![](images/figures/selection-filters-toolbar.png)
 

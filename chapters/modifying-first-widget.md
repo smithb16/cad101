@@ -1,11 +1,11 @@
 # Modifying our Part 
 \label{chapter:modifying-first-widget}
 
-## (The Wrong Way)
+## The Wrong Way
 
 If all has gone to plan, your part currently looks like Figure~\ref{fig:exercise-1-widget}. Let's now suppose we want to make it look like Figure~\ref{fig:exercise-1-widget-mod}, perhaps by decree of the Director of Marketing, who said the last design was too ``static''. Easy enough, we'll just tilt one leg and call it a day.
 
-![\label{fig:exercise-1-widget}](images/figures/exercise-1-widget.png)
+![\label{fig:exercise-1-widget}](images/figures/first-widget-complete.png)
 
 ![\label{fig:exercise-1-widget-mod}](images/figures/exercise-1-widget-mod.png)
 

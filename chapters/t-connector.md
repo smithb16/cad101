@@ -1,4 +1,5 @@
 # A First Useful Part
+\label{cha:tee-connector}
 
 The widget we built in Chapter~\ref{chapter:modifying-first-widget} is unique in that it has no constraints. It didn't have to fit in a hand, or bolt to a motorcycle, or be injection-moldable. Unless you're designing abstract art[^abstract-art], your designs will be subject to constraints[^no-constraints]. These can come in the form of interfacing parts (e.g. the aforementioned bolts and motorcycle), natural constraints (e.g. the human hand), or manufacturing limitations (e.g. draft angles in molding, minimum radii in machining).
 
@@ -35,7 +36,9 @@ Visiting the McMaster-Carr page for Part Number [47065T503](https://www.mcmaster
 
 Identifying critical dimensions is often the easy part of defining the constraints. The more challenging part is incorporating those constraints into our parts, and we'll take that on in Section~\ref{section:sketching-the-constraints}.
 
-Before we leave, let's download the 3-D \solidworks file from McMaster. One of the most powerful aspects of McMaster is the depth of their CAD files, from [screws](https://www.mcmaster.com/91251A190/) to [saws](https://www.mcmaster.com/7159K21/) to [speed limit signs](https://www.mcmaster.com/5940T42/).
+#### Download the Part
+
+Before we leavee the McMaster pag, let's download the 3-D \solidworks file from McMaster. One of the most powerful aspects of McMaster is the depth of their CAD files, from [screws](https://www.mcmaster.com/91251A190/) to [saws](https://www.mcmaster.com/7159K21/) to [speed limit signs](https://www.mcmaster.com/5940T42/).
 
 ### Sketching the Constraints
 \label{sec:bracket-sketching-constraints}
