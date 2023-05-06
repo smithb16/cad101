@@ -33,12 +33,14 @@ When we updated the sketch, we had no way to tell \solidworks that *Line18* is t
 
 [^line-names]: \solidworks numbers lines, sketches, features, and all other entities sequentially. You may have drawn extra lines, and therefore have numbers beyond *Line4*. The most recently drawn line should still have the largest number.
 
-### The Fix
+### Fix the Error
+\label{sec:error-process}
 
-Let us now practice a skill more valuable than doing things right, the skill of fixing things done wrong. We'll follow a three-step protocol which works well in most computer applications.
+Let us now practice a skill more valuable than doing things right, the skill of fixing things done wrong. We'll follow a four-step protocol which works well in most computer applications.
 
 1. Actually read the error message.
 2. Interpret the error message.
+3. *Optional:* Type the error message into your favorite search engine.
 3. Address the error.
 
 Because features (e.g. *Revolve*) depend on sketches (*Revolve Sketch*), let's start with the errors in *Revolve Sketch*. Error messages are visible by mousing over the highlighted text or by right-clicking on the problem sketch and selecting "What's Wrong?"

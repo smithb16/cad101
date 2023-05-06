@@ -8,3 +8,5 @@ first-widget.md
 modifying-first-widget.md
 t-connector.md
 bracket-assembly.md
+hinge-assembly.md
+door-frame.md
