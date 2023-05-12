@@ -10,7 +10,7 @@ In this chapter, we'll make our very first part together, the basic and not-at-a
 
 ## Making a Triangle
 
-Open SolidWorks and create a new part using the default part template:
+Open \solidworks{} and create a new part using the default part template:
 
 ![](../images/figures/default-part-template.png)
 
@@ -18,11 +18,13 @@ We are presented with a Feature Tree, menu tabs, working area, and potentially a
 
 ![\label{fig:working-view}](../images/figures/empty-solidworks.png)
 
-### A First Sketch
+### A First Line
 
-Our first task is to create the triangular cross-section. Start by creating a new \relation{Sketch} on the *Front Plane*. There are multiple ways to create a sketch, such as right-clicking on the desired sketch plane.
+Our first task is to create the triangular cross-section. Start by creating a new \relation{Sketch}. As is often the case, we receive a helpful message in the sidebar:
 
-![](images/figures/new-sketch.png)
+![](images/figures/new-sketch-helpful-message.png)
+
+This message indicates that we need to select a plane, for all 2-dimensional sketches live on a plane. The cursor also gains a filter to only select planes and surfaces \cadsymbol{cursor-select-plane-surface}. Choose the *Front Plane*.
 
 When we open a new sketch, a few things change:
 
@@ -30,7 +32,36 @@ When we open a new sketch, a few things change:
 - We gain access to Sketch tab and lose access to most of the Feature tab. The Sketch tab contains entities we can add to the sketch, such as \relation{Line} and \relation{Rectangle}.
 ![](images/figures/sketch-tab.png)
 
-Use the \relation{Line} tool to create three lines forming a triangle, as in Figure \ref{fig:first-sketch-triangle}. If you've successfully closed the triangle, the Line tool will automatically exit.
+Select the \relation{Line} tool and create a line in the working area. Holding the mouse over the Line tool displays a helper box describing how to use the tool:
+
+![](images/figures/line-helper-dialog.png)
+
+### Basic Navigation & Orientation
+
+With a single line created, we can more easily understand navigation around our working area. To better illustrate, I've drawn a square offset from the origin as in Figure~\ref{fig:starting-square}. No need to draw the square yourself.
+
+![\label{fig:starting-square}](images/figures/gone-awry-starting-square.png)
+
+Zoom within the working area by using the mouse scroll wheel. Alternatively, two-finger scroll on a touch pad, as you would on a webpage.
+
+![](images/figures/zoom-scroll.png)
+
+It is easy to get lost in space. If you find yourself zoomed too far in or out, use \relation{Zoom-to-Fit}, which centers the existing parts and entities within the screen.
+
+![](images/figures/zoom-to-fit.png)
+
+Rotate the working area by click-holding the mouse center button and moving the mouse. Alternatively, use the arrow keys. I take advantage of both methods. The arrow keys are more controlled but also slower.
+
+![](images/figures/rotate-working-area.png)
+
+To return to one of the six cardinal views (*Front, Back, Top, Bottom, Right, Left*), use the Standard View menu. By default, these views are assigned to the hotkeys \texttt{Ctrl+1} through \texttt{Ctrl+6}.
+
+To create a view that is looking straight at the current sketch plane (or to a selected plane), use \relation{Normal-To}, a fancy way of saying "perpendicular to".
+
+
+### A First Sketch
+
+Add two more lines to form a triangle, as in Figure~\ref{fig:first-sketch-triangle}. If something goes wrong, refer to Section~\ref{sec:fixing-sketches}.
 
 ![\label{fig:first-sketch-triangle}](images/figures/first-sketch-triangle.png)
 
@@ -39,6 +70,19 @@ As we sketch, alignment guides (Figure~\ref{fig:sketch-alignment-guides}) appear
 Relations (Figure~\ref{fig:sketch-alignment-guides}) sometimes appear beside the cursor when drawing lines. Yellow relations are added to the sketch, whereas white relations are merely "for your information". Relations will be discussed in Section~\ref{sec:}.
 
 ![\label{fig:sketch-alignment-guides}](../images/figures/sketch-alignment-guides.png)
+
+### Fixing Sketches Gone Awry
+\label{sec:fixing-sketches}
+
+If, even after *Zoom to Fit*, you're still disoriented, change perspective from the View toolbar. In a sketch, consider \relation{Normal-To}, a fancy way of saying "Perpendicular To". Outside of a sketch, consider \relation{Isometric}.
+
+![](images/figures/view-toolbar-disoriented.png)
+
+If you start a sketch entity in the wrong spot, \texttt{Esc} will close the sketch entity tool. If you've completed that entity, you can highlight it and \texttt{Delete}. Often (but not always), \texttt{Ctrl+Z} will undo the last addition to the sketch.
+
+![](images/figures/sketch-cancel-entity.png)
+
+### Close and Rename Sketch
 
 Once we have a triangle (any triangle), close the sketch \cadsymbol{close-sketch}. In our feature tree, we now have a sketch, probably called *(-) Sketch1*. Rename this sketch from *Sketch1* to *Triangle Sketch*. As in other Windows programs, rename itmes either via *click-pause-click* or by highlighting it and pressing \texttt{F2}.
 
@@ -64,7 +108,7 @@ When choosing a part name, I recommend adopting a part numbering scheme. Through
 \label{aside:part_units}
 \heading{Changing Part Units}
 
-\noindent SolidWorks plays well with most length units from small to large, provided the dimensions remain within the scale of manmade objects. SolidWorks' units are defined in *Options > Document Properties > Units*.
+\noindent \solidworks{} plays well with most length units from small to large, provided the dimensions remain within the scale of manmade objects. \solidworks{}' units are defined in *Options > Document Properties > Units*.
 ![](../images/figures/unit-settings.png)
 
 However, the easiest way to change the part's units are with the dropdown menu in the bottom-right of the working area. 
@@ -111,7 +155,7 @@ A three-step process is necessary to view the relations (which in this instance 
     ![](../images/figures/hide-all-types.png)
 
 ### What is a Relation?
-There are two ways for us to specify the geometry of sketches. One is with dimensions (say 1" or 15\textdegree). Relations are ways for us to specify the geometry of sketches without the use of dimensions. One line, for instance, can be constrained \relation{Vertical} or \relation{Horizontal}. Two lines can be constrained \relation{Parallel} to each other, \relation{Perpendicular} to each other, \relation{Equal} in length, or along the same line (\relation{Collinear}). Each relation is represented by a symbol near the affected entities. A full table of SolidWorks relations is shown in Appendix~\ref{app:relations}.
+There are two ways for us to specify the geometry of sketches. One is with dimensions (say 1" or 15\textdegree). Relations are ways for us to specify the geometry of sketches without the use of dimensions. One line, for instance, can be constrained \relation{Vertical} or \relation{Horizontal}. Two lines can be constrained \relation{Parallel} to each other, \relation{Perpendicular} to each other, \relation{Equal} in length, or along the same line (\relation{Collinear}). Each relation is represented by a symbol near the affected entities. A full table of \solidworks{} relations is shown in Appendix~\ref{app:relations}.
 
 ### From Triangle to Right Triangle
 
@@ -142,7 +186,7 @@ Use the \kode{Smart} \relation{Dimension} tool to make the hypotenuse 2'' long.[
 
 For 95% of my needs, Option 1 is both simpler and more appropriate. I'll let you discover places to leverage Option 2 on your own.
 
-[^imperial-units]: If you weren't born into a former British colony, my use of inches may be annoying. Feel free to substitute your favorite unit of length. \solidworks doesn't much care. Later exercises, where we use off-the-shelf hardware, won't be so foregiving.
+[^imperial-units]: If you weren't born into a former British colony, my use of inches may be annoying. Feel free to substitute your favorite unit of length. \solidworks{} doesn't much care. Later exercises, where we use off-the-shelf hardware, won't be so foregiving.
 
 ![](images/figures/dimension-hypotenuse.png)
 
@@ -169,16 +213,16 @@ Sketch the entities shown in Figure~\ref{fig:revolve-sketch}. The rectangle will
 
 ![\label{fig:revolve-rectangle}](images/figures/revolve-rectangle.png)
 
-We need to tell \solidworks which axis to revolve our rectangle about, for the same rectangular cross-section can produce infinite toroids (Figure~\ref{fig:toroids}). If our sketch contains one closed contour (the rectangle) and one construction line, \solidworks will interpret the construction line as the axis of revolution.
+We need to tell \solidworks{} which axis to revolve our rectangle about, for the same rectangular cross-section can produce infinite toroids (Figure~\ref{fig:toroids}). If our sketch contains one closed contour (the rectangle) and one construction line, \solidworks{} will interpret the construction line as the axis of revolution.
 
 ![\label{fig:toroids}](images/figures/toroids.png)
 
 #### Construction (Center) Lines
  Construction lines[^centerline] are lines that help specify geometry, but they are not used as contours when generating features (Figure~\ref{fig:construction-lines-to-triangle}). 
 
-[^centerline]: \solidworks uses the term \relation{Centerline} for construction geometry. However, this tool is useful even if the line isn't in the center. For this reason, I'll use the term \kode{Construction Line}.
+[^centerline]: \solidworks{} uses the term \relation{Centerline} for construction geometry. However, this tool is useful even if the line isn't in the center. For this reason, I'll use the term \kode{Construction Line}.
 
-![I can add construction lines to the triange sketch from Figure~\ref{fig:first-sketch-triangle}, but I still get the same old prism. \label{fig:construction-lines-to-triangle}](images/figures/construction-lines-to-triangle.png)
+![I can add construction lines to the triangle sketch from Figure~\ref{fig:first-sketch-triangle}, but I still get the same old prism. \label{fig:construction-lines-to-triangle}](images/figures/construction-lines-to-triangle.png)
 
 There are two ways of creating construction lines, and I use both frequently.
 
@@ -189,7 +233,7 @@ There are two ways of creating construction lines, and I use both frequently.
 
 Add a \constructionline down the middle of the face as in Figure~\ref{fig:revolve-sketch}. Make one endpoint coincident with the edge's midpoint, and confirm that the construction line is \relation{Vertical}. Note that the sketch is *Fully Defined* even though we haven't constrained the length of the construction line.
 
-Last time, we closed the sketch before making our extrude. However, that was unnecessary. We can choose \relation{Revolve} from the Feature tab, and \solidworks will assume we wish to revolve the currently opened sketch. Change the revolve angle to 180\textdegree to prevent the toroid from bulging through the backside. If necessary, use *Change Directions* \cadsymbol{change-directions} to modify the direction.
+Last time, we closed the sketch before making our extrude. However, that was unnecessary. We can choose \relation{Revolve} from the Feature tab, and \solidworks{} will assume we wish to revolve the currently opened sketch. Change the revolve angle to 180\textdegree to prevent the toroid from bulging through the backside. If necessary, use *Change Directions* \cadsymbol{change-directions} to modify the direction.
 
 ![](images/figures/revolve-dialog-box.png)
 
