@@ -50,14 +50,23 @@ It is easy to get lost in space. If you find yourself zoomed too far in or out, 
 
 ![](images/figures/zoom-to-fit.png)
 
+To return to one of the six cardinal views (*Front, Back, Top, Bottom, Right, Left*), use the Standard View menu. By default, these views are assigned to the hotkeys \texttt{Ctrl+1} through \texttt{Ctrl+6}. The \relation{Isometric} view partially shows all aspects of the part, and this view is assigned to \texttt{Ctrl+7}.
+
+![\label{fig:standard-view-menu}](images/figures/standard-view-menu.png)
+
+To create a view that is looking straight at the current sketch plane (or to a selected plane), use \relation{Normal-To}, a fancy way of saying "perpendicular to".
+
 Rotate the working area by click-holding the mouse center button and moving the mouse. Alternatively, use the arrow keys. I take advantage of both methods. The arrow keys are more controlled but also slower.
 
 ![](images/figures/rotate-working-area.png)
 
-To return to one of the six cardinal views (*Front, Back, Top, Bottom, Right, Left*), use the Standard View menu. By default, these views are assigned to the hotkeys \texttt{Ctrl+1} through \texttt{Ctrl+6}.
+\relation{Pan} the working area by holding \texttt{Ctrl} while dragging a middle click. \relation{Zoom} the working area by holding \texttt{Shift} while dragging a middle-click.
 
-To create a view that is looking straight at the current sketch plane (or to a selected plane), use \relation{Normal-To}, a fancy way of saying "perpendicular to".
+![](images/figures/pan-zoom.png)
 
+It is easy to get lost in space. If you find yourself zoomed too far in or out, use \relation{Zoom-to-Fit}, which centers the existing parts and entities within the screen.
+
+![](images/figures/zoom-to-fit.png)
 
 ### A First Sketch
 
